@@ -21,13 +21,39 @@ The model used for this project is `damo-vilab/text-to-video-ms-1.7b`, a pre-tra
 
 5. Saved the output video in `.mp4` format.
 
-## Dependencies
-The necessary libraries are installed in the Colab notebook itself, using the following commands:
+## Usage
+
+This project generates videos from text prompts using the `Text-to-Video` pipeline from Hugging Face. It is designed to run efficiently on a machine with GPU support, such as Google Colab or any CUDA-enabled machine. Below are the steps to execute the code and generate a video from a text input.
+
+## Steps to Run
+
+1. Clone the repository and navigate to the project directory:
+   
+```bash
+git clone <repository-link>
+```
+```bash
+cd <repository-folder>
+```
+2. Open the text2video.ipynb notebook in Google Colab or Jupyter.
+   
+3. Install the necessary dependencies directly in the notebook:
+   
 ```bash
 !pip install torch diffusers opencv-python transformers
 ```
-## Usage
-Run the code in a Google Colab notebook. The video will be generated and saved to the specified path.
+4. Authenticate with Hugging Face using your token (if required):
+   
+```bash
+from huggingface_hub import login
+login('your-huggingface-token')
+```
+
+5. Run the cells in the notebook to generate the video based on a text prompt.
+   
+7. The generated video will be saved as output_video.mp4 in the project directory.
+
+
 ## Example Input and Output
 
 ### Input
