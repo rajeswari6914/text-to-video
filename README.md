@@ -30,10 +30,10 @@ This project generates videos from text prompts using the `Text-to-Video` pipeli
 1. Clone the repository and navigate to the project directory:
    
 ```bash
-git clone <repository-link>
+ git clone https://github.com/rajeswari6914/text-to-video.git
 ```
 ```bash
-cd <repository-folder>
+ cd text-to-video
 ```
 2. Open the text2video.ipynb notebook in Google Colab or Jupyter.
    
