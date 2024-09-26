@@ -45,8 +45,7 @@ width = 512
 The input prompt generated a video, saved as output_video.mp4. You can download or view the generated video here:
 
 
-[Download the generated video](https://github.com/your-username/your-repo-name/raw/main/output_video.mp4)
-
+[Download the generated video](https://github.com/rajeswari6914/text-to-video/blob/main/output_video%20(13).mp4)
 
 
 
